@@ -1,0 +1,49 @@
+h1,p{
+    text-align: center;
+}
+#first {
+    width: 800px;
+    height: 350px;
+    background: white;
+    overflow: hidden;
+    margin:auto;
+    border: 2px solid black;
+    text-align: right;
+    padding-top: 20px;
+    padding-right:50px;
+}
+
+#first #second{
+    position: relative;
+    width: 25%;
+    height: 60%;
+    background: white;
+    border: 2px solid black;
+    bottom:175px;
+    left:40px;
+}
+#second #circle{
+    background: white;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    border:2px solid black;
+  }
+#text{
+    margin-left:5px;
+    margin-top:35px;
+}
+form{
+    border: 2px solid black;
+    width:1000px;
+    height:500px;
+    margin-left:300px;
+    margin-top:40px;
+}
+
+@media screen and (max-width:576px){
+    width: 40%;
+}
